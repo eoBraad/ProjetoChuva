@@ -1,0 +1,137 @@
+@media (max-width: 1240px) {
+  .header_container {
+    position: fixed;
+    left: -220px;
+    background-color: #ffffff;
+    z-index: 100;
+    transition: left .5s;
+  }
+
+  .header_container.active {
+    left: 0;
+  }
+
+  .header_button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+
+    width: 40px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+    background-color: #ed7839;
+    border-radius: 5px;
+
+    transition: left .5s;
+  }
+
+  .header_button div {
+    width: 70%;
+    height: 2px;
+    background-color: #ffffff;
+    border: 9999px;
+  }
+
+  .header_button.active {
+    left: 240px;
+  }
+
+  .post_settings {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px 0;
+  }
+
+  .content_container {
+    width: 100%;
+  }
+
+  .post_info {
+    margin-top: 15px;  
+    max-width: 90%;
+    margin-left: 30px;
+  }
+
+  .user_settings {
+    gap: 20px;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    padding: 0;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .language_container {
+    max-width: 120px;
+    min-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .main_content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .post_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .video_section {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video_container {
+    max-width: 100%;
+    min-height: 440px;
+  }
+
+  .video_title {
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .video_profile_info h2 {
+    font-size: 20px;
+  }
+
+  .video_profile_info span {
+    font-size: 14px;
+  }
+
+  .video_profile {
+      margin-top: 20px;
+  }
+
+  .video_information {
+    padding: 10px;
+  }
+
+  .footer_container {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .form_content input {
+    padding: 5px 0 5px 10px;
+  }
+
+  .form_content textarea {
+    padding: 10px 0 5px 10px;
+  }
+}
