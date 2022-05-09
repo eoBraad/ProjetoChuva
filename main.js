@@ -27,8 +27,6 @@ showMoreButton.addEventListener('click', () => {
 })
 
 
-
-
 //NEW QUESTION SCRIPT
 
 const newQuestionButton = document.querySelector(".create_new_question")
@@ -50,6 +48,15 @@ submitQuestionButton.addEventListener("click", (event) => {
   formContainer.classList.toggle("disable")
   createQuestionContainer.classList.toggle('disable')
   feedbackPost.classList.toggle("disable")
+})
+
+//RESPONSES
+
+const responsesContainer = document.querySelector(".responses_container")
+const responseButton = document.querySelector(".more_info")
+
+responseButton.addEventListener("click", () => {
+  responsesContainer.classList.toggle("active")
 })
 
 //Responsivo 

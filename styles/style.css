@@ -837,6 +837,75 @@ div.feedback_post .post_information_container {
   filter: brightness(1.1);
 }
 
+.responses_container {
+  width: 100%;
+  display: none;
+
+  background: #F8F8F8;
+  
+  border: 1px solid #E7E7E7;
+  border-top: transparent;
+  border-radius: 0px;
+  
+}
+
+.responses_container.active {
+  display: block;
+}
+
+.responses_container p {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #4D4D4D;
+
+  margin-top: 14px;
+}
+
+.response_content {
+  background: #F8F8F8;
+  border: 1px solid #E7E7E7;
+  border-radius: 0px;
+  padding: 18px 24px;
+}
+
+
+.response_properties {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.response_properties span, .response_content span {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #5C5C5C;
+}
+
+.response_properties div {
+  display: flex;
+  align-items: center;
+}
+
+.response_properties div span {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 1rem;
+
+
+  color: #ED7839;
+}
+
 .footer_container {
   width: 1070px;
 
